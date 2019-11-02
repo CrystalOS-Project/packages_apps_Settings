@@ -54,4 +54,8 @@
 	<!-- Notification log -->
     <string name="notification_log_summary">Értesítési előzmények megjelenítése</string>
 
+	<!-- ADB Root -->
+	<string name="adb_enable_root">Rootolt hibakeresés</string>
+    <string name="adb_enable_summary_root">Engedélyezi az Android Debugging Bridge rootként történő futtatását</string>
+
 </resources>
