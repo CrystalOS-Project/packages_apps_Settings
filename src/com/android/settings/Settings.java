@@ -243,5 +243,5 @@ public class Settings extends SettingsActivity {
     /**
      * Activity for Mine
      **/
-    public static class CrystalDashboardActivity extends SettingsActivity {/* empty */}
+    public static class CrystalHomepageActivity extends SettingsActivity {/* empty */}
 }

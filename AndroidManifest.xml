@@ -3413,12 +3413,12 @@
         </activity>
 
         <!-- CrystalMine -->
-        <activity android:name="Settings$CrystalDashboardActivity"
-            android:label="@string/crystal_dashboard_title"
-            android:icon="@drawable/ic_dashboard_crystal"
+        <activity android:name="Settings$CrystalHomepageActivity"
+            android:label="@string/crystal_homepage_title"
+            android:icon="@drawable/ic_homepage_crystal"
             android:taskAffinity="com.android.settings">
             <intent-filter android:priority="1">
-                <action android:name="com.crystal.mine.CrystalDashboard" />
+                <action android:name="com.crystal.mine.CrystalHomepage" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <intent-filter>
@@ -3434,11 +3434,11 @@
                 android:value="com.android.settings.category.ia.homepage" />
             <meta-data android:name="com.android.settings.order" android:value="-105"/>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.crystal.mine.CrystalDashboard" />
+                android:value="com.crystal.mine.CrystalHomepage" />
             <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
                 android:value="true" />
             <meta-data android:name="com.android.settings.summary"
-                android:resource="@string/crystal_dashboard_summary"/>
+                android:resource="@string/crystal_homepage_summary"/>
         </activity>
 
         <receiver
